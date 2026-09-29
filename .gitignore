@@ -1,0 +1,78 @@
+# ==================================================
+# Isla Nublar HomeLab
+# Custom .gitignore
+# ==================================================
+
+# ---------- Secrets / Environment Files ----------
+.env
+.env.*
+*.env
+secrets/
+private/
+
+# ---------- Keys / Certificates ----------
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# ---------- Credentials / Tokens ----------
+credentials.*
+secrets.*
+*.secret
+*.token
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---------- PowerShell ----------
+*.clixml
+
+# ---------- Terraform ----------
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+terraform.tfvars.json
+
+# ---------- Ansible ----------
+*.retry
+vault-password*
+.vault_pass*
+
+# ---------- VS Code ----------
+.vscode/
+
+# ---------- JetBrains ----------
+.idea/
+
+# ---------- macOS ----------
+.DS_Store
+
+# ---------- Windows ----------
+Thumbs.db
+Desktop.ini
+
+# ---------- Logs ----------
+*.log
+logs/
+
+# ---------- Temporary Files ----------
+tmp/
+temp/
+*.tmp
+
+# ---------- Backups ----------
+*.bak
+*.backup
+*.old
