@@ -14,7 +14,7 @@ The Jurassic-inspired naming system gives the project its identity, while the un
 
 ---
 
-## 🎯 Project Goals
+## Project Goals
 
 The primary goals of the Isla Nublar HomeLab are to:
 
@@ -34,7 +34,7 @@ The primary goals of the Isla Nublar HomeLab are to:
 
 ---
 
-## 🖥️ Primary System
+## Primary System
 
 ### NUBLAR-CORE
 
@@ -50,7 +50,7 @@ Instead of purchasing enterprise-level hardware immediately, components will be 
 
 ---
 
-## 🦖 Infrastructure Naming
+## Infrastructure Naming
 
 The lab uses a Jurassic-inspired naming system while keeping the technical purpose of each system documented.
 
@@ -70,7 +70,7 @@ Names may change as the architecture develops.
 
 ---
 
-## 🔬 Cybersecurity Lab
+## Cybersecurity Lab
 
 One of the major purposes of Isla Nublar is to create a safe, isolated environment for cybersecurity experimentation.
 
@@ -82,7 +82,7 @@ Planned environments include:
 - Active Directory labs
 - Vulnerable virtual machines
 - Web application security labs
-- Network-security exercises
+- Network security exercises
 - SIEM experimentation
 - Intrusion detection
 - Log analysis
@@ -93,7 +93,7 @@ Security-testing systems will be separated from trusted systems using virtualiza
 
 ---
 
-## 🌐 Planned Network Architecture
+## Planned Network Architecture
 
 The network will eventually be separated into multiple logical security zones.
 
@@ -121,7 +121,7 @@ The final VLAN and IP addressing architecture will be documented as the network 
 
 ---
 
-## 💾 Storage
+## Storage
 
 Storage will initially remain simple and expand as needed.
 
@@ -141,7 +141,7 @@ A dedicated storage architecture may be introduced later as capacity requirement
 
 ---
 
-## 🗺️ Current Phase
+## Current Phase
 
 ### Phase 1 — Planning & Architecture
 
@@ -157,7 +157,7 @@ Current work includes:
 
 ---
 
-## 🚧 Planned Development
+## Planned Development
 
 Future phases are expected to include:
 
@@ -191,7 +191,7 @@ Develop SITE-B backup infrastructure.
 
 ---
 
-## 📚 Skills Demonstrated
+## Skills Demonstrated
 
 This project is intended to provide hands-on experience with technologies and concepts including:
 
@@ -216,7 +216,7 @@ This project is intended to provide hands-on experience with technologies and co
 
 ---
 
-## 🤖 Jarvis Project
+## Jarvis Project
 
 The Isla Nublar HomeLab and my Jarvis development project are separate environments.
 
@@ -224,19 +224,7 @@ The Isla Nublar HomeLab and my Jarvis development project are separate environme
 
 Future integrations between the projects may be explored, but Isla Nublar is not intended to serve as Jarvis's primary infrastructure.
 
----
-
-## ⚠️ Security Notice
-
-Configuration examples published in this repository are sanitized before publication.
-
-Credentials, private keys, authentication tokens, sensitive configuration information, and other secrets will never intentionally be committed to this repository.
-
-Any vulnerable systems documented in this project are operated only within authorized and isolated lab environments.
-
----
-
-## 📝 Documentation
+## Documentation
 
 Detailed documentation can be found within the `/docs` directory as the project develops.
 
