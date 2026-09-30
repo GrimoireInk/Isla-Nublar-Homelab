@@ -1,6 +1,6 @@
 🦖 Isla Nublar HomeLab
 
-> **Life finds a way. Infrastructure should be documented.**
+> **Life finds a way**
 
 ## Overview
 
