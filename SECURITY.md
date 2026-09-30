@@ -2,9 +2,7 @@
 
 ## Purpose
 
-The **Isla Nublar HomeLab** is an educational cybersecurity and infrastructure project. This repository documents the design, configuration, automation, and lessons learned while building and operating the lab.
-
-Security is part of the project itself. Public documentation should demonstrate how the environment works without exposing credentials, private keys, sensitive configuration data, or information that could unnecessarily increase risk to the real environment.
+Public documentation should demonstrate how the environment works without exposing credentials, private keys, sensitive configuration data, or information that could unnecessarily increase risk to the real environment.
 
 ---
 
