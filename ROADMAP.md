@@ -1,10 +1,8 @@
 # 🗺️ Isla Nublar HomeLab Roadmap
 
-> **Build deliberately. Learn constantly. Upgrade only when the lab gives us a reason to.**
+This roadmap tracks the development of **Isla Nublar HomeLab**, a cybersecurity and infrastructure lab built around the Rosewill THOR V2 chassis.
 
-This roadmap tracks the development of **Isla Nublar HomeLab**, a budget-conscious cybersecurity and infrastructure lab built around the Rosewill THOR V2 chassis.
-
-The project is being developed incrementally around college coursework, technical growth, available budget, and real learning objectives. Hardware and software will be added when they enable a new capability—not simply because they are available.
+The project is being developed incrementally around college coursework, technical growth, available budget, and real learning objectives.
 
 ---
 
@@ -58,7 +56,7 @@ Phase 1 is complete when the first hardware configuration is selected, documente
 
 ---
 
-# Phase 2 — Hardware Assembly 🦖
+# Phase 2 — Hardware Assembly
 
 **Status:** Planned
 
@@ -101,7 +99,7 @@ NUBLAR-CORE passes hardware diagnostics and is stable enough for hypervisor inst
 
 ---
 
-# Phase 3 — Proxmox & Virtualization 🖥️
+# Phase 3 — Proxmox & Virtualization
 
 **Status:** Planned
 
@@ -141,7 +139,7 @@ NUBLAR-CORE can reliably create, run, snapshot, back up, and restore virtual mac
 
 ---
 
-# Phase 4 — Core Infrastructure 🌐
+# Phase 4 — Core Infrastructure
 
 **Status:** Planned
 
@@ -176,7 +174,7 @@ The lab has a functional base infrastructure suitable for networking and cyberse
 
 ---
 
-# Phase 5 — Network Segmentation & Paddocks 🔐
+# Phase 5 — Network Segmentation & Paddocks
 
 **Status:** Planned
 
@@ -207,17 +205,13 @@ The lab has a functional base infrastructure suitable for networking and cyberse
 | **HATCHERY** | Containers and experimental services |
 | **SITE B** | Future backup infrastructure |
 
-### Upgrade Trigger
-
-Do not purchase higher-speed networking solely for specifications. Add 2.5GbE or 10GbE when storage, VM migration, backups, or real measured network usage justify it.
-
 ### Exit Criteria
 
 Security zones are segmented, documented, and tested for intended isolation.
 
 ---
 
-# Phase 6 — Cybersecurity Lab 🛡️
+# Phase 6 — Cybersecurity Lab
 
 **Status:** Planned
 
@@ -248,7 +242,7 @@ The PADDOCK environment supports repeatable offensive and defensive security exe
 
 ---
 
-# Phase 7 — Monitoring, Logging & Detection 📡
+# Phase 7 — Monitoring, Logging & Detection
 
 **Status:** Planned
 
@@ -283,7 +277,7 @@ The lab provides centralized visibility into both infrastructure health and sele
 
 ---
 
-# Phase 8 — Storage, Backup & Recovery 💾
+# Phase 8 — Storage, Backup & Recovery
 
 **Status:** Planned
 
@@ -300,17 +294,13 @@ The lab provides centralized visibility into both infrastructure health and sele
 - [ ] Build `SITE-B` when budget and hardware availability permit
 - [ ] Test recovery from a simulated host failure
 
-### Upgrade Trigger
-
-Additional disks, HBAs, dedicated NAS hardware, or SITE-B infrastructure should be purchased only when existing storage capacity, redundancy, or backup requirements justify them.
-
 ### Exit Criteria
 
 Important lab services and documentation can be restored from tested backups.
 
 ---
 
-# Phase 9 — Automation & Infrastructure as Code ⚙️
+# Phase 9 — Automation & Infrastructure as Code
 
 **Status:** Future
 
@@ -332,7 +322,7 @@ Common lab deployments and administrative tasks can be reproduced with documente
 
 ---
 
-# Phase 10 — Portfolio & Continuous Improvement 🎓
+# Phase 10 — Portfolio & Continuous Improvement
 
 **Status:** Ongoing
 
@@ -358,24 +348,8 @@ The repository should demonstrate not only *what* was built, but also:
 - How security boundaries were designed
 - What problems occurred
 - How those problems were diagnosed
-- What tradeoffs were made because of budget or hardware limitations
+- What trade-offs were made because of budget or hardware limitations
 - What was learned from each phase
-
----
-
-# Hardware Upgrade Decision Framework
-
-Before buying a new component, answer:
-
-1. **What limitation am I currently experiencing?**
-2. **What learning objective will this purchase unlock?**
-3. **Can existing hardware solve the problem?**
-4. **Can the component be purchased used safely?**
-5. **What is the expected power impact?**
-6. **Will this component still be useful after the next upgrade?**
-7. **Is this worth the cost for a full-time college student?**
-
-If there is no clear answer to the first two questions, the upgrade probably is not necessary yet.
 
 ---
 
@@ -398,7 +372,3 @@ If there is no clear answer to the first two questions, the upgrade probably is 
 - ⚪ **Planned**
 - 🔵 **Future / Optional**
 - 🔴 **Blocked**
-
----
-
-*This roadmap is expected to change as the Isla Nublar HomeLab evolves. Changes should reflect real technical requirements, lessons learned, budget constraints, and new learning objectives.*
