@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Public documentation should demonstrate how the environment works without exposing credentials, private keys, sensitive configuration data, or information that could unnecessarily increase risk to the real environment.
+To demonstrate how the environment works without exposing credentials, private keys, sensitive configuration data, or information that could unnecessarily increase risk to the real environment.
 
 ---
 
@@ -19,7 +19,7 @@ Security testing performed as part of this project is limited to:
 
 The `PADDOCK` security zone is intended for offensive-security exercises and intentionally vulnerable systems.
 
-Intentionally vulnerable systems should remain isolated from trusted devices and should not be exposed directly to the public Internet unless there is a specific, understood, and documented reason to do so.
+Intentionally vulnerable systems will remain isolated from trusted devices and will not be exposed directly to the public Internet unless there is a specific, understood, and documented reason to do so.
 
 ---
 
@@ -88,24 +88,6 @@ Private RFC1918 addresses such as `10.0.0.0/8`, `172.16.0.0/12`, and `192.168.0.
 
 ---
 
-## Safe Configuration Examples
-
-Public configuration files should use placeholders when sensitive values would otherwise be required.
-
-For example:
-
-```text
-USERNAME=<REDACTED>
-PASSWORD=<REDACTED>
-API_TOKEN=<REDACTED>
-PUBLIC_IP=<REDACTED>
-VPN_SECRET=<REDACTED>
-```
-
-Example domains, usernames, networks, and credentials should be clearly fictional.
-
----
-
 ## Network Isolation
 
 Security-testing systems should be separated from trusted systems through network segmentation and firewall policy.
@@ -123,8 +105,6 @@ Planned security zones include:
 
 The goal is to ensure that intentionally vulnerable or compromised lab machines cannot freely reach trusted devices.
 
-Firewall rules, VLANs, routing, and isolation controls will be documented as the network architecture develops.
-
 ---
 
 ## Vulnerable Systems
@@ -140,7 +120,7 @@ Intentionally vulnerable systems may include technologies such as:
 
 These systems are expected to contain security weaknesses by design.
 
-They should:
+They will:
 
 - Remain inside authorized lab environments
 - Be isolated from trusted networks
@@ -153,7 +133,7 @@ They should:
 
 ## Offensive-Security Tools
 
-This project may document legitimate cybersecurity tools used for learning, testing, and defensive research.
+This project will document legitimate cybersecurity tools used for learning, testing, and defensive research.
 
 Examples may include:
 
@@ -171,25 +151,7 @@ Examples may include:
 - Suricata
 - Zeek
 
-Their presence in this repository does not imply authorization to use them against systems outside the lab.
-
 All testing must remain within systems that are owned or explicitly authorized for testing.
-
----
-
-## Secrets Accidentally Committed
-
-If a real credential, key, token, or other secret is accidentally committed:
-
-1. **Assume the secret is compromised.**
-2. Revoke or rotate the exposed secret immediately.
-3. Remove the secret from the current repository contents.
-4. Remove the secret from Git history when appropriate.
-5. Verify that no copies remain in branches, tags, logs, artifacts, or documentation.
-6. Review related systems for unexpected access.
-7. Document the incident in a sanitized way if it provides a useful learning opportunity.
-
-Deleting a secret in a later commit does **not** make the original secret safe.
 
 ---
 
@@ -212,7 +174,7 @@ Before pushing changes, verify:
 
 ## Backups
 
-Repository backups and exported lab configurations should be treated with the same care as the live environment.
+Treat repository backups and exported lab configurations with the same care as the live environment.
 
 Backups may contain:
 
@@ -223,39 +185,7 @@ Backups may contain:
 - Certificates
 - Network information
 
-Raw backups containing sensitive information should not be stored in this public repository.
-
 Sanitized examples may be published when useful for documentation.
-
----
-
-## Responsible Disclosure
-
-If you discover that this repository accidentally exposes a real secret, credential, sensitive configuration, or security issue, please avoid reproducing the sensitive information in a public GitHub issue.
-
-Contact the repository maintainer privately through an appropriate GitHub channel when possible.
-
-Non-sensitive documentation errors, broken scripts, and general project issues may be reported publicly.
-
----
-
-## Security Is Part of the Lab
-
-The goal of Isla Nublar HomeLab is not simply to build systems that work.
-
-The project should demonstrate the ability to:
-
-- Design security boundaries
-- Apply least privilege
-- Segment networks
-- Protect credentials
-- Monitor activity
-- Detect suspicious behavior
-- Recover from failures
-- Document risk and remediation
-- Learn from mistakes safely
-
-Security decisions will continue to evolve as the lab grows.
 
 ---
 
