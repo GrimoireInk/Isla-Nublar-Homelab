@@ -10,6 +10,16 @@ The chassis survey determines whether the legacy Gateway enclosure can safely an
 
 No major internal hardware should be purchased until this survey is complete.
 
+## Known Chassis Identification
+
+The rear factory label identifies the enclosure/system as:
+
+- **Gateway Essential 500**
+- **Label designation:** `LP MINI TOWER TB3 Essential 500`
+- **Label date:** `11/20/99`
+
+The unique factory serial/asset identifier is intentionally omitted from public documentation.
+
 ## Survey Principles
 
 - Measure before buying.
@@ -137,8 +147,13 @@ Document:
 
 ### Side Panel
 
-- Existing ventilation: **TBD**
+- Existing ventilation: **Yes — factory rectangular perforated ventilation field**
+- Vent dimensions: **TBD mm**
+- Vent position relative to modern CPU/GPU layout: **TBD**
 - Additional ventilation feasible: **TBD**
+- Exterior condition: **Structurally intact with minor cosmetic scratches/wear**
+
+The existing perforation should be treated as part of the future airflow plan rather than covered by paint buildup or 3D-printed exterior decoration.
 
 ### Bottom Intake
 
@@ -177,6 +192,7 @@ Jurassic-inspired cosmetic changes must preserve:
 
 - Air intake
 - Exhaust
+- Existing side-panel perforations unless intentionally redesigned
 - Side-panel removal
 - Front-panel operation
 - Cable access
