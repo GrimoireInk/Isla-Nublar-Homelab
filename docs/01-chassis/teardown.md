@@ -27,7 +27,8 @@ Safely remove the original Gateway components while preserving a complete visual
 - [ ] Photograph PSU connectors
 - [ ] Photograph drive cabling
 - [ ] Photograph expansion cards
-- [ ] Record readable labels and model numbers
+- [x] Record rear factory system label and model designation
+- [ ] Record remaining internal component labels and model numbers
 
 ### Step 2 — Expansion Cards
 
