@@ -30,7 +30,7 @@ Hidden labels and wiring will be documented progressively as components are remo
 
 ### Step 2 — Expansion Cards
 
-**Progress:** In Progress — Cards 1 and 2 removed and identified.
+**Progress:** In Progress — Cards 1, 2, and 3 removed and identified.
 
 For each card:
 
@@ -45,6 +45,7 @@ For each card:
 |---|---|---|---|
 | Expansion Card 1 | PCI slot (exact slot number to be confirmed after full motherboard exposure) | 3Com / U.S. Robotics Model 0637 56K PCI Voice WinModem, 1.012.0637-D | Removed successfully; photographed both sides and bracket |
 | Expansion Card 2 | PCI slot (exact slot number to be confirmed after full motherboard exposure) | Creative Labs CT5803 Sound Blaster AudioPCI 64, 6001238, ASSYNO: 4 REV:A | Removed successfully; photographed component side, solder side, and bracket |
+| Expansion Card 3 | AGP slot | VisionTek NV996.0 Rev. D, NVIDIA RIVA TNT2 M64 / Vanta, Gateway 6001425, G7500.1 | Removed successfully; photographed both sides and VGA bracket |
 
 ### Step 3 — Drives
 
