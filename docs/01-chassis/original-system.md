@@ -92,9 +92,34 @@ Complete this inventory before components are discarded, recycled, or repurposed
 | Optical drive | TBD | TBD | Installed |
 | Floppy drive | TBD | TBD | Installed |
 | Storage drive(s) | TBD | TBD | To be inventoried |
-| Expansion card 1 | TBD | TBD | To be inventoried |
+| Expansion card 1 | 3Com / U.S. Robotics Model 0637 56K PCI Voice WinModem | 1.012.0637-D / 6001126 / PCB label 1.028.0470-10 | Removed and identified; dual RJ-11 LINE IN / TO PHONE ports |
 | Expansion card 2 | TBD | TBD | To be inventoried |
 | Additional cards | TBD | TBD | To be inventoried |
+
+
+## Expansion Card 1 — 3Com / U.S. Robotics 56K PCI WinModem
+
+The first removed expansion card has been identified as a 3Com / U.S. Robotics Model 0637 internal PCI modem.
+
+### Visible Identification
+
+- **Manufacturer:** 3Com / U.S. Robotics
+- **Model:** 0637
+- **Function:** 56K internal PCI Voice WinModem
+- **Board marking:** `1.012.0637-D`
+- **Gateway/OEM-compatible part marking:** `6001126`
+- **Additional PCB label:** `1.028.0470-10`
+- **Copyright marking:** 3Com, 1998
+- **External connectors:** Two RJ-11 telephone jacks
+  - `LINE IN`
+  - `TO PHONE`
+- **Bus:** PCI
+- **Regulatory markings:** FCC, Industry Canada, VCCI and other certification markings visible
+
+The card was photographed in its original installed position and again after removal, including both sides of the PCB and the rear bracket.
+
+The modem will not be reused in the modern NUBLAR-CORE system, but it is being retained temporarily as part of the original-system record.
+
 
 ## Labels to Record
 
@@ -107,7 +132,7 @@ Before teardown, photograph and transcribe any readable:
 - [ ] Optical drive model
 - [ ] Floppy drive model
 - [ ] Storage drive labels
-- [ ] Expansion-card labels
+- [x] Expansion-card labels — Card 1 identified; remaining cards pending
 - [x] Regulatory labels / certification marks
 - [ ] Internal assembly labels
 - [ ] Front-panel wiring labels
@@ -130,7 +155,8 @@ Sensitive identifiers that add no educational value may be omitted or redacted b
 - [ ] Optical drive label
 - [ ] Floppy drive label
 - [ ] Storage drive labels
-- [ ] Each expansion card
+- [x] Expansion card 1 — photographed installed and after removal
+- [ ] Remaining expansion cards
 - [ ] Front-panel connectors at motherboard
 - [ ] Power connectors before disconnection
 - [ ] Data-cable routing
