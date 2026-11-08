@@ -93,7 +93,7 @@ Complete this inventory before components are discarded, recycled, or repurposed
 | Floppy drive | TBD | TBD | Installed |
 | Storage drive(s) | TBD | TBD | To be inventoried |
 | Expansion card 1 | 3Com / U.S. Robotics Model 0637 56K PCI Voice WinModem | 1.012.0637-D / 6001126 / PCB label 1.028.0470-10 | Removed and identified; dual RJ-11 LINE IN / TO PHONE ports |
-| Expansion card 2 | TBD | TBD | To be inventoried |
+| Expansion card 2 | Creative Labs CT5803 Sound Blaster AudioPCI 64 (Dell/Gateway OEM) | 6001238 / A5170652 / ASSYNO: 4 REV:A | Removed and identified; PCI sound card with 3x 3.5 mm audio jacks and DB-15 game/MIDI port |
 | Additional cards | TBD | TBD | To be inventoried |
 
 
@@ -121,6 +121,35 @@ The card was photographed in its original installed position and again after rem
 The modem will not be reused in the modern NUBLAR-CORE system, but it is being retained temporarily as part of the original-system record.
 
 
+
+## Expansion Card 2 — Creative Labs CT5803 Sound Blaster AudioPCI 64
+
+The second removed expansion card has been identified as a Creative Labs CT5803 PCI sound card. Creative's official product list identifies CT5803 as the **Sound Blaster Audio PCI 64 Dell/Gateway OEM** model.
+
+### Visible Identification
+
+- **Manufacturer:** Creative Technology / Creative Labs
+- **Model:** `CT5803`
+- **Product family:** Sound Blaster AudioPCI 64
+- **OEM association:** Dell / Gateway
+- **Interface:** PCI
+- **Assembly marking:** `ASSYNO: 4 REV:A`
+- **OEM/part marking:** `6001238`
+- **Additional label:** `A5170652`
+- **Additional board marking:** `AudioPCI9942`
+- **Assembly location:** Singapore
+- **External connectors:**
+  - Green 3.5 mm audio jack
+  - Black 3.5 mm audio jack
+  - Pink 3.5 mm microphone jack
+  - DB-15 game/MIDI port
+- **Internal headers:** Multiple internal audio/CD auxiliary headers are visible along the top edge
+
+The card was photographed after removal, including the component side, solder side, and rear bracket.
+
+The card will not be reused in the modern NUBLAR-CORE system but is being retained temporarily as part of the original-system record.
+
+
 ## Labels to Record
 
 Before teardown, photograph and transcribe any readable:
@@ -132,7 +161,7 @@ Before teardown, photograph and transcribe any readable:
 - [ ] Optical drive model
 - [ ] Floppy drive model
 - [ ] Storage drive labels
-- [x] Expansion-card labels — Card 1 identified; remaining cards pending
+- [x] Expansion-card labels — Cards 1 and 2 identified; remaining cards pending
 - [x] Regulatory labels / certification marks
 - [ ] Internal assembly labels
 - [ ] Front-panel wiring labels
@@ -156,6 +185,7 @@ Sensitive identifiers that add no educational value may be omitted or redacted b
 - [ ] Floppy drive label
 - [ ] Storage drive labels
 - [x] Expansion card 1 — photographed installed and after removal
+- [x] Expansion card 2 — photographed after removal
 - [ ] Remaining expansion cards
 - [ ] Front-panel connectors at motherboard
 - [ ] Power connectors before disconnection
