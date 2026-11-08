@@ -17,6 +17,19 @@ The goal is to preserve enough information to:
 - Compare the legacy platform with the final NUBLAR-CORE build
 - Provide before/after portfolio documentation
 
+## System Identification
+
+A rear factory label identifies the system/chassis as:
+
+- **Manufacturer:** Gateway
+- **Label designation:** `LP MINI TOWER TB3 Essential 500`
+- **Product family:** Gateway Essential 500
+- **Label date:** `11/20/99`
+- **Form-factor wording on label:** LP Mini Tower
+- **Regulatory markings:** FCC, CE, VCCI and other certification marks are visible
+
+A unique serial/asset-style number is present on the factory label and on a smaller side-panel label. Those identifiers are intentionally not reproduced in this public repository because they currently provide no technical value.
+
 ## Initial Visual Condition
 
 The system is a legacy beige Gateway desktop tower with:
@@ -26,6 +39,7 @@ The system is a legacy beige Gateway desktop tower with:
 - A 3.5-inch floppy drive
 - Multiple unused front drive-bay covers
 - A removable side panel
+- A factory rectangular perforated ventilation field in the removable side panel
 - A legacy motherboard
 - A legacy CPU cooling assembly
 - A legacy power supply
@@ -34,6 +48,20 @@ The system is a legacy beige Gateway desktop tower with:
 - Internal drive mounting hardware
 
 The case shows cosmetic wear consistent with its age but appears structurally suitable for restoration and modification.
+
+### Removable Side Panel
+
+The removable metal side panel has been photographed separately.
+
+Observed features:
+
+- Original beige/ivory textured finish
+- Factory rectangular perforated ventilation field
+- Minor surface scratches and age-related cosmetic wear
+- A partially worn **QUALITY** inspection sticker near the lower edge
+- A small numeric identification label near another lower corner
+
+No major bending, punctures, or structural damage are visible in the supplied photographs.
 
 ## Initial Safety Decision
 
@@ -55,7 +83,7 @@ Complete this inventory before components are discarded, recycled, or repurposed
 
 | Component | Manufacturer / Model | Visible Part Number | Notes |
 |---|---|---|---|
-| Chassis | Gateway | TBD | Legacy beige tower |
+| Chassis / System | Gateway Essential 500 | LP MINI TOWER TB3 Essential 500 | Rear label dated 11/20/99 |
 | Motherboard | TBD | TBD | Installed |
 | CPU | TBD | TBD | Installed under legacy cooler |
 | CPU cooler | TBD | TBD | Installed |
@@ -72,17 +100,17 @@ Complete this inventory before components are discarded, recycled, or repurposed
 
 Before teardown, photograph and transcribe any readable:
 
-- Gateway model label
-- Gateway serial / service label
-- Motherboard model
-- PSU model
-- Optical drive model
-- Floppy drive model
-- Storage drive labels
-- Expansion-card labels
-- Regulatory labels
-- Internal assembly labels
-- Front-panel wiring labels
+- [x] Gateway model/system label
+- [x] Gateway serial / service label photographed; unique identifier not published
+- [ ] Motherboard model
+- [ ] PSU model
+- [ ] Optical drive model
+- [ ] Floppy drive model
+- [ ] Storage drive labels
+- [ ] Expansion-card labels
+- [x] Regulatory labels / certification marks
+- [ ] Internal assembly labels
+- [ ] Front-panel wiring labels
 
 Sensitive identifiers that add no educational value may be omitted or redacted before publication.
 
@@ -91,6 +119,8 @@ Sensitive identifiers that add no educational value may be omitted or redacted b
 - [x] Exterior front
 - [x] Interior side view
 - [x] Exterior rear
+- [x] Removable side panel exterior
+- [x] Rear factory system label
 - [ ] Opposite exterior side
 - [ ] Top
 - [ ] Bottom
@@ -112,4 +142,4 @@ Do not remove a cable or component until its original position and connections h
 
 ## Next Step
 
-Identify visible labels and complete the original component inventory before the first major component is removed.
+Photograph and identify the internal components and their wiring before the first major component is removed.
