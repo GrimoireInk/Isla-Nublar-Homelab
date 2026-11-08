@@ -1,36 +1,16 @@
-🦖 Isla Nublar HomeLab
+# 🦖 Isla Nublar HomeLab
 
-> **Life finds a way**
+> **Life finds a way. Infrastructure should be documented.**
 
 ## Overview
 
-**Isla Nublar HomeLab** is my personal cybersecurity and infrastructure homelab built inside a customized Rosewill THOR V2 full-tower chassis.
+**Isla Nublar HomeLab** is my personal cybersecurity and infrastructure HomeLab built inside a restored legacy Gateway tower.
 
-The project is a budget-conscious, to-start, learning environment where I can gain hands-on experience with virtualization, networking, operating systems, cybersecurity, Active Directory, monitoring, storage, and systems administration.
+The project began as a conventional HomeLab planned around a Rosewill THOR V2 chassis. The design was later revised to use a legacy Gateway system as the foundation for a retro sleeper build. That change expanded the project beyond infrastructure alone: NUBLAR-CORE now includes legacy hardware restoration, chassis engineering, custom fabrication, 3D printing, airflow design, modern PC integration, virtualization, networking, cybersecurity, monitoring, storage, and automation.
 
-Rather than building the entire environment at once, I'm developing the lab incrementally as my technical skills, requirements, and budget grow.
+The system is being developed incrementally around real learning objectives, available budget, and documented engineering decisions.
 
-The Jurassic-inspired naming system gives the project its identity, while the underlying architecture and documentation are designed around real-world IT and cybersecurity concepts. I'm also a huge Jurassic Park fan.
-
----
-
-## Project Goals
-
-The primary goals of the Isla Nublar HomeLab are to:
-
-- Build and administer a virtualization environment
-- Gain practical Linux and Windows Server experience
-- Create Active Directory environments
-- Practice network segmentation and VLAN configuration
-- Build isolated cybersecurity testing environments
-- Learn firewall administration
-- Deploy and manage Docker containers
-- Implement infrastructure monitoring
-- Experiment with SIEM and security-monitoring technologies
-- Develop automation skills with Bash, PowerShell, and Python
-- Learn storage and backup administration
-- Document infrastructure using professional practices
-- Create demonstrable cybersecurity projects for my technical portfolio
+The Jurassic-inspired identity is intentionally fun; the underlying architecture and documentation are intended to reflect professional IT and cybersecurity practices.
 
 ---
 
@@ -38,35 +18,76 @@ The primary goals of the Isla Nublar HomeLab are to:
 
 ### NUBLAR-CORE
 
-`NUBLAR-CORE` is the primary physical server hosting the virtualized homelab infrastructure.
+NUBLAR-CORE is the primary physical system for the Isla Nublar HomeLab.
 
-**Chassis:** Rosewill THOR V2  
-**Role:** Virtualization / Infrastructure Server  
-**Hypervisor:** Proxmox VE
+- **Chassis:** Legacy Gateway tower
+- **Build style:** Restored retro sleeper / custom case modification
+- **Role:** Virtualization and infrastructure host
+- **Planned hypervisor:** Proxmox VE
+- **Current phase:** Phase 0 — Legacy System Documentation & Chassis Survey
 
-The system is intentionally being built with an upgrade-over-time philosophy.
+The exterior will preserve the recognizable Gateway character while incorporating a Jurassic-inspired design, including paintwork and custom 3D-printed dinosaur skeletal elements. Modern hardware selection will occur only after the chassis has been fully surveyed and measured.
 
-Instead of purchasing enterprise-level hardware immediately, components will be added as new technical requirements emerge.
+---
+
+## Project Goals
+
+The project is intended to build hands-on experience with:
+
+- Computer hardware and system integration
+- Legacy computer restoration and modification
+- 3D printing and custom fabrication
+- Virtualization and Proxmox VE
+- Linux and Windows Server administration
+- Active Directory and identity management
+- Networking, VLANs, and firewall policy
+- Docker and containerized services
+- Cybersecurity testing in isolated environments
+- Centralized logging, SIEM, IDS/IPS, and detection engineering
+- Infrastructure monitoring
+- Storage, backups, and recovery
+- Bash, PowerShell, Python, and infrastructure automation
+- Technical troubleshooting and incident documentation
+- Git/GitHub and professional infrastructure documentation
 
 ---
 
 ## Infrastructure Naming
 
-The lab uses a Jurassic-inspired naming system while keeping the technical purpose of each system documented.
-
 | Name | Role |
 |---|---|
-| NUBLAR-CORE | Primary Proxmox host |
+| NUBLAR-CORE | Primary physical virtualization host |
 | CONTROL-ROOM | Monitoring and management |
 | HATCHERY | Container services |
-| GENETICS-LAB | Linux development environment |
+| GENETICS-LAB | Linux development and research environment |
 | VISITOR-CENTER | Windows Server / Active Directory |
 | RAPTOR | Offensive-security workstation |
 | PADDOCK | Isolated cybersecurity environments |
 | GENOME | Storage services |
 | SITE-B | Future backup infrastructure |
 
-Names may change as the architecture develops.
+Names may evolve as the architecture develops.
+
+---
+
+## Physical Build Concept
+
+The final system will be a modern HomeLab hidden inside a restored Gateway chassis.
+
+Planned physical work includes:
+
+- Full chassis inspection and measurement
+- Documentation of the original Gateway hardware
+- Safe teardown of legacy components
+- Chassis cleaning and restoration
+- Compatibility analysis for modern motherboard and PSU standards
+- Airflow redesign where required
+- Custom brackets, adapters, and drive-bay components
+- Jurassic-inspired exterior paintwork
+- 3D-printed dinosaur skeletal exterior elements
+- Modern storage, networking, and serviceability improvements
+
+Cosmetic modifications must never interfere with cooling, maintenance access, or electrical safety.
 
 ---
 
@@ -74,145 +95,74 @@ Names may change as the architecture develops.
 
 One of the major purposes of Isla Nublar is to create a safe, isolated environment for cybersecurity experimentation.
 
-Planned environments include:
+Planned environments include Kali Linux, Windows and Linux test systems, Active Directory attack/defense labs, vulnerable virtual machines, web application security labs, SIEM experimentation, intrusion detection, log analysis, penetration-testing exercises, and CTF environments.
 
-- Kali Linux
-- Windows test systems
-- Linux test systems
-- Active Directory labs
-- Vulnerable virtual machines
-- Web application security labs
-- Network security exercises
-- SIEM experimentation
-- Intrusion detection
-- Log analysis
-- Penetration-testing exercises
-- Capture-the-Flag environments
+Intentionally vulnerable systems will remain isolated from trusted systems through virtualization, network segmentation, and firewall policy.
 
-Security-testing systems will be separated from trusted systems using virtualization and network segmentation.
+See [SECURITY.md](SECURITY.md) for the repository and lab security policy.
 
 ---
 
-## Planned Network Architecture
+## Documentation Philosophy
 
-The network will eventually be separated into multiple logical security zones.
+This repository is intended to document not only **what** was built, but also **how and why** it was built.
 
-Examples may include:
+For meaningful changes, documentation should capture:
 
-**CONTROL CENTER**  
-Infrastructure management.
+1. Current state
+2. Goal
+3. Action performed
+4. Result
+5. Problems encountered
+6. Troubleshooting and solution
+7. Design decision
+8. Reason for the decision
+9. Supporting photographs, diagrams, or configuration
+10. Next step
 
-**VISITOR CENTER**  
-General-purpose systems.
-
-**GENETICS LAB**  
-Development and research.
-
-**PADDOCK**  
-Cybersecurity testing and intentionally vulnerable systems.
-
-**HATCHERY**  
-Containers and experimental services.
-
-**SITE B**  
-Backup infrastructure.
-
-The final VLAN and IP addressing architecture will be documented as the network is built.
-
----
-
-## Storage
-
-Storage will initially remain simple and expand as needed.
-
-Planned storage roles include:
-
-- Virtual machine storage
-- ISO images
-- Project files
-- School-related technical projects
-- Cybersecurity datasets
-- System backups
-- Configuration backups
-- Documentation
-- Lab snapshots
-
-A dedicated storage architecture may be introduced later as capacity requirements increase.
+Failures and redesigns are part of the project record rather than something to hide. The goal is a reproducible engineering history.
 
 ---
 
 ## Current Phase
 
-### Phase 1 — Planning & Architecture
+### Phase 0 — Legacy System Documentation & Chassis Survey
 
-Current work includes:
+Current work:
 
-- Hardware planning
-- Server architecture
-- Naming conventions
-- Virtualization planning
-- Network planning
-- Repository documentation
-- Physical system design
+- Document the Gateway system before disassembly
+- Inventory original hardware and labels
+- Photograph the original configuration
+- Safely remove legacy components
+- Measure motherboard, PSU, drive, expansion, cooling, and front-panel areas
+- Determine modern hardware compatibility
+- Identify required chassis modifications before purchasing components
 
----
-
-## Planned Development
-
-Future phases are expected to include:
-
-**Phase 2 — Hardware Assembly**
-
-Build and configure NUBLAR-CORE.
-
-**Phase 3 — Virtualization**
-
-Install and configure Proxmox VE.
-
-**Phase 4 — Core Infrastructure**
-
-Deploy management, Linux, and Windows environments.
-
-**Phase 5 — Network Segmentation**
-
-Introduce VLANs and dedicated security zones.
-
-**Phase 6 — Cybersecurity Lab**
-
-Deploy isolated offensive and defensive security environments.
-
-**Phase 7 — Monitoring & Detection**
-
-Introduce centralized monitoring, logging, and SIEM experimentation.
-
-**Phase 8 — Backup & Recovery**
-
-Develop SITE-B backup infrastructure.
+See [ROADMAP.md](ROADMAP.md) for the complete development plan.
 
 ---
 
-## Skills Demonstrated
+## Repository Structure
 
-This project is intended to provide hands-on experience with technologies and concepts including:
+Documentation will grow into the following areas as the project develops:
 
-`Linux`  
-`Windows Server`  
-`Active Directory`  
-`Proxmox VE`  
-`Virtualization`  
-`Networking`  
-`VLANs`  
-`Firewalls`  
-`Docker`  
-`Cybersecurity`  
-`SIEM`  
-`IDS/IPS`  
-`Bash`  
-`PowerShell`  
-`Python`  
-`Git`  
-`GitHub`  
-`Infrastructure Documentation`
+- `docs/00-project-overview/` — project scope and design decisions
+- `docs/01-chassis/` — original system, teardown, measurements, and chassis survey
+- `docs/02-hardware/` — requirements, inventory, and component selection
+- `docs/03-case-mod/` — restoration, airflow, painting, and fabrication
+- `docs/04-virtualization/` — Proxmox and VM/container architecture
+- `docs/05-networking/` — addressing, VLANs, switching, routing, and firewall policy
+- `docs/06-infrastructure/` — Windows, Linux, identity, DNS, DHCP, and services
+- `docs/07-security/` — cyber range, logging, detection, and defensive exercises
+- `docs/08-monitoring/` — infrastructure and security monitoring
+- `docs/09-automation/` — scripts and infrastructure automation
+- `docs/10-backup-recovery/` — backup, restoration, and recovery procedures
+- `cad/` — custom brackets, mounts, and exterior components
+- `diagrams/` — hardware, network, and virtualization diagrams
+- `configs/` — sanitized configuration examples
+- `scripts/` — reusable administration and automation scripts
+- `incident-reports/` — documented troubleshooting and security incidents
+- `images/` — photographic build documentation
 
 ---
 
@@ -222,13 +172,7 @@ The Isla Nublar HomeLab and my Jarvis development project are separate environme
 
 **Jarvis is not hosted on NUBLAR-CORE.**
 
-Future integrations between the projects may be explored, but Isla Nublar is not intended to serve as Jarvis's primary infrastructure.
-
-## Documentation
-
-Detailed documentation can be found within the `/docs` directory as the project develops.
-
-This repository will evolve alongside the physical homelab.
+Future integrations may be explored, but Isla Nublar is not intended to serve as Jarvis's primary infrastructure.
 
 ---
 
