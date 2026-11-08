@@ -30,6 +30,8 @@ Hidden labels and wiring will be documented progressively as components are remo
 
 ### Step 2 — Expansion Cards
 
+**Progress:** In Progress — Card 1 removed and identified.
+
 For each card:
 
 - Photograph before removal
@@ -41,7 +43,7 @@ For each card:
 
 | Card | Original Slot | Identification | Notes |
 |---|---|---|---|
-| TBD | TBD | TBD | TBD |
+| Expansion Card 1 | PCI slot (exact slot number to be confirmed after full motherboard exposure) | 3Com / U.S. Robotics Model 0637 56K PCI Voice WinModem, 1.012.0637-D | Removed successfully; photographed both sides and bracket |
 
 ### Step 3 — Drives
 
