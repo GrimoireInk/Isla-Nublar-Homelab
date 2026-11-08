@@ -6,7 +6,7 @@
 
 ## Objective
 
-Safely remove the original Gateway components while preserving a complete visual and written record of how the system was assembled.
+Safely remove the original Gateway components while preserving a complete visual and written record of how the system was assembled. Because some labels and connectors are physically blocked, component identification will occur progressively as each layer of hardware is removed.
 
 ## Safety
 
@@ -21,14 +21,12 @@ Safely remove the original Gateway components while preserving a complete visual
 
 ### Step 1 — Pre-Teardown Documentation
 
-- [ ] Photograph untouched interior from multiple angles
-- [ ] Photograph motherboard connectors
-- [ ] Photograph front-panel wiring
-- [ ] Photograph PSU connectors
-- [ ] Photograph drive cabling
-- [ ] Photograph expansion cards
+- [x] Photograph untouched interior from multiple angles
 - [x] Record rear factory system label and model designation
-- [ ] Record remaining internal component labels and model numbers
+- [ ] Photograph any currently visible connectors, cables, and component positions
+- [ ] Record currently visible internal labels
+
+Hidden labels and wiring will be documented progressively as components are removed.
 
 ### Step 2 — Expansion Cards
 
@@ -36,8 +34,10 @@ For each card:
 
 - Photograph before removal
 - Record slot position
-- Record manufacturer/model if visible
-- Remove and label
+- Remove the card
+- Photograph both sides after removal
+- Record manufacturer/model and part numbers once visible
+- Label/store the card before continuing
 
 | Card | Original Slot | Identification | Notes |
 |---|---|---|---|
