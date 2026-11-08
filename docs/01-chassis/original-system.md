@@ -138,8 +138,17 @@ Sensitive identifiers that add no educational value may be omitted or redacted b
 
 ## Teardown Rule
 
-Do not remove a cable or component until its original position and connections have been photographed clearly enough to reconstruct the original layout if needed.
+Because several internal labels and connectors are obstructed by the compact chassis layout, identification will be performed progressively during teardown.
+
+Before removing each component:
+
+1. Photograph its installed position and any visible connections.
+2. Disconnect and remove only that component.
+3. Photograph all newly exposed labels, connectors, mounting points, and surrounding hardware.
+4. Record the component identification before continuing to the next item.
+
+This staged approach preserves the original layout while allowing hidden model numbers and wiring to be documented safely.
 
 ## Next Step
 
-Photograph and identify the internal components and their wiring before the first major component is removed.
+Begin controlled staged teardown. Start with the most accessible removable component, document it before and after removal, then update the inventory before continuing.
