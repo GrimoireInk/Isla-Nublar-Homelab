@@ -91,7 +91,7 @@ Complete this inventory before components are discarded, recycled, or repurposed
 | Power supply | TBD | TBD | Do not open; not planned for reuse |
 | Optical drive | TBD | TBD | Installed |
 | Floppy drive | TBD | TBD | Installed |
-| Storage drive(s) | TBD | TBD | To be inventoried |
+| Storage drive(s) | Western Digital Caviar 102AA, model WD102AA-53AAA4 | 10262.5 MB / 10.2 GB | Removed and identified; 3.5-inch Enhanced IDE hard drive dated 10 Nov 1999 |
 | Expansion card 1 | 3Com / U.S. Robotics Model 0637 56K PCI Voice WinModem | 1.012.0637-D / 6001126 / PCB label 1.028.0470-10 | Removed and identified; dual RJ-11 LINE IN / TO PHONE ports |
 | Expansion card 2 | Creative Labs CT5803 Sound Blaster AudioPCI 64 (Dell/Gateway OEM) | 6001238 / A5170652 / ASSYNO: 4 REV:A | Removed and identified; PCI sound card with 3x 3.5 mm audio jacks and DB-15 game/MIDI port |
 | Expansion card 3 | VisionTek NV996.0 Rev. D NVIDIA RIVA TNT2 M64 / Vanta AGP graphics card | Gateway 6001425 / G7500.1 | Removed and identified; 8 MB AGP card with single VGA output |\n| Additional cards | TBD | TBD | To be inventoried |
@@ -175,6 +175,32 @@ The card was photographed after removal from both sides and at the rear bracket.
 The graphics card will not be reused in the modern NUBLAR-CORE system but is being retained temporarily as part of the original-system record.
 
 
+
+## Storage Drive — Western Digital Caviar 102AA
+
+The original hard drive has been removed and identified.
+
+### Visible Identification
+
+- **Manufacturer:** Western Digital
+- **Series:** Caviar 102AA
+- **Model:** `WD102AA-53AAA4`
+- **Capacity:** `10262.5 MB` (approximately 10.2 GB)
+- **Interface:** Enhanced IDE / PATA
+- **Form factor:** 3.5-inch
+- **Manufacturing date on label:** `10 NOV 1999`
+- **Power:** Standard legacy 4-pin peripheral power connector
+- **Data connector:** 40-pin IDE
+- **Jumper block:** Master / Slave / Single settings are printed on the factory label
+- **Country of manufacture:** Malaysia
+
+The drive's unique serial number is intentionally omitted from the public documentation because it provides no technical value to the project.
+
+External historical references for the Caviar 102AA family describe it as a 5400 RPM ATA/IDE drive in the 10.2 GB class.
+
+The drive will not be used as primary storage in the modern NUBLAR-CORE build. It is being retained temporarily as part of the original-system record.
+
+
 ## Labels to Record
 
 Before teardown, photograph and transcribe any readable:
@@ -185,7 +211,7 @@ Before teardown, photograph and transcribe any readable:
 - [ ] PSU model
 - [ ] Optical drive model
 - [ ] Floppy drive model
-- [ ] Storage drive labels
+- [x] Storage drive label — Western Digital Caviar 102AA documented
 - [x] Expansion-card labels — Cards 1, 2, and 3 identified; remaining cards pending
 - [x] Regulatory labels / certification marks
 - [ ] Internal assembly labels
@@ -203,8 +229,8 @@ Sensitive identifiers that add no educational value may be omitted or redacted b
 - [ ] Opposite exterior side
 - [ ] Top
 - [ ] Bottom
-- [ ] Motherboard close-up
-- [ ] CPU cooler close-up
+- [x] Motherboard photographed in place before removal; detailed model identification still pending
+- [x] CPU cooler visible in pre-removal documentation; exact model still pending
 - [ ] PSU label
 - [ ] Optical drive label
 - [ ] Floppy drive label
@@ -216,7 +242,7 @@ Sensitive identifiers that add no educational value may be omitted or redacted b
 - [ ] Front-panel connectors at motherboard
 - [ ] Power connectors before disconnection
 - [ ] Data-cable routing
-- [ ] Drive-cage mounting points
+- [x] Drive-cage mounting points photographed during removal
 
 ## Teardown Rule
 
