@@ -49,6 +49,8 @@ For each card:
 
 ### Step 3 — Drives
 
+**Progress:** In Progress — original hard drive removed and identified.
+
 For each drive:
 
 - Photograph cables and mounting method
@@ -61,7 +63,7 @@ For each drive:
 |---|---|---|---|
 | Optical | TBD | TBD | TBD |
 | Floppy | TBD | TBD | TBD |
-| Storage | TBD | TBD | TBD |
+| Storage | Internal 3.5-inch hard-drive position | Western Digital Caviar 102AA, WD102AA-53AAA4, 10.2 GB Enhanced IDE | Removed successfully; label photographed and documented |
 
 ### Step 4 — Front-Panel Wiring
 
@@ -74,41 +76,66 @@ Before disconnecting:
 
 ### Step 5 — Motherboard
 
-- [ ] Photograph board before removal
+**Progress:** Motherboard removed; exact motherboard model remains to be identified from the removed board.
+
+- [x] Photograph board before removal
 - [ ] Record mounting-screw locations
 - [ ] Disconnect remaining cables
-- [ ] Remove board
-- [ ] Photograph exposed motherboard tray and standoffs
+- [x] Remove board
+- [x] Photograph exposed motherboard tray and standoffs
 
 ### Step 6 — Power Supply
 
-- [ ] Confirm AC cable is disconnected
+**Progress:** PSU removed from chassis. Factory model label still needs to be documented if accessible on the removed unit.
+
+- [x] Confirm AC cable is disconnected
 - [ ] Photograph PSU mounting
 - [ ] Record PSU dimensions and label
-- [ ] Remove PSU without opening its enclosure
-- [ ] Photograph empty PSU bay
+- [x] Remove PSU without opening its enclosure
+- [x] Photograph empty PSU bay
 
 ### Step 7 — Drive Cages and Internal Brackets
 
+**Progress:** At least one removable internal drive bracket/cage has been removed and photographed.
+
 - [ ] Determine whether cages are removable
-- [ ] Photograph attachment points
-- [ ] Remove only if useful for survey or restoration
+- [x] Photograph attachment points
+- [x] Remove selected bracket/cage for survey and access
 - [ ] Preserve original hardware
 
 ### Step 8 — Empty Chassis Documentation
 
+**Progress:** First empty-chassis photographs captured.
+
 Required photographs:
 
-- [ ] Full motherboard tray
-- [ ] Rear I/O area
-- [ ] Expansion slots
-- [ ] PSU bay
-- [ ] Front interior
-- [ ] Drive cages
-- [ ] Rear fan/vent area
-- [ ] Front intake area
+- [x] Full motherboard tray
+- [x] Rear I/O area
+- [x] Expansion slots
+- [x] PSU bay
+- [x] Front interior
+- [x] Drive cages
+- [x] Rear fan/vent area
+- [x] Front intake area
 - [ ] Side-panel interior
-- [ ] Bottom interior
+- [x] Bottom interior
+
+
+## Drive Bracket / Cage Observation
+
+A removable stamped-steel drive bracket/cage was removed during teardown.
+
+Visible stamped markings indicate support for multiple legacy hard-drive installation positions and orientations. The bracket contains numerous circular and slotted mounting holes and large rectangular access cutouts.
+
+The bracket is being retained because it may be useful for:
+
+- Original-system documentation
+- Measuring legacy mounting geometry
+- Reuse as a modern 2.5-inch/3.5-inch drive carrier
+- Serving as a template for a custom replacement or 3D-printed adapter
+
+No decision has been made yet on whether the original bracket will be reused in the final build.
+
 
 ## Issues Encountered
 
