@@ -129,6 +129,8 @@ Document:
 - Possible custom SSD mounts
 - Clearance impact on front airflow
 
+**Current observation:** The original system used a removable stamped-steel internal drive bracket/cage. The bracket has been removed and photographed and may be reusable or serve as a fabrication template.
+
 **Decision:** TBD
 
 ## Cooling Survey
@@ -222,8 +224,8 @@ Phase 0 is complete when:
 
 - [ ] Original hardware has been inventoried
 - [ ] Front-panel wiring has been documented
-- [ ] Chassis has been safely emptied
-- [ ] Empty chassis has been photographed
+- [x] Chassis has been safely emptied
+- [x] Empty chassis has been photographed
 - [ ] Motherboard form-factor compatibility is known
 - [ ] PSU compatibility is known
 - [ ] CPU-cooler clearance is known
@@ -234,4 +236,4 @@ Phase 0 is complete when:
 
 ## Next Step
 
-Complete the original-system inventory, then begin controlled teardown and measurements.
+Measure the empty chassis: motherboard tray, rear I/O opening, expansion-slot geometry, PSU bay, cooler clearance, drive-bay geometry, and available fan/vent locations.
